@@ -52,12 +52,6 @@
 
 <p className='font-bold'>{data.productTitle}</p><br />
 <p>{data.price}</p>
-{/* <div className="flex flex-row">
-                <p> QUANTITY</p>
-                <div className="w-7 text-center ml-2 border-2 border-black  h-7" onClick={() => { value > 1 ? setvalue(value - 1) : setvalue(value); }}> - </div>
-                <div className="w-7 text-center  border-2 border-black h-7"> {" "} {value} </div>
-                <div className="w-7 text-center  border-2 border-black  h-7" onClick={() => { setvalue(value + 1); }}> +</div>
-              </div> */}
               <div className="flex flex-row">
         <p>QUANTITY</p>
         <div className="w-7 text-center ml-2 border-2 border-black h-7" onClick={handleDecreaseQuantity}>
